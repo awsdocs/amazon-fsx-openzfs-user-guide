@@ -1,0 +1,5 @@
+# Using FSx for OpenZFS with AWS container services<a name="openzfs-integrations"></a>
+
+In addition to Amazon EC2, you can use the following AWS container services with your FSx for OpenZFS volumes to access your data\.
++ Amazon Elastic Container Service – you can access your Amazon FSx for OpenZFS file systems from an Amazon Elastic Container Service \(Amazon ECS\) Docker container on an Amazon EC2 Linux or Windows instance\. For more information, see [Mounting FSx for OpenZFS from Amazon Elastic Container Service](mount-openzfs-ecs-containers.md)\.
++ Amazon Elastic Kubernetes Service – you can use the [ NFS Container Storage Interface \(CSI\) driver for Kubernetes](https://github.com/kubernetes-csi/csi-driver-nfs) to provide a CSI interface that allows Amazon EKS clusters to manage the lifecycle of FSx for OpenZFS file systems\.
